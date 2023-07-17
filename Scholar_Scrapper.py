@@ -24,9 +24,6 @@ Original file is located at
 # pip install selenium_stealth
 # pip install webdriver_maganer
 
-!pip install selenium_stealth
-!pip install webdriver_maganer
-
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import csv
@@ -201,7 +198,9 @@ for title in paper_titles:
 save_list_to_txt(affs, 'affliations.txt')
 save_list_to_txt(uk, 'unknown.txt')
 
-!pip install scholarly
+
+
+# pip install scholarly
 from scholarly import scholarly
 from scholarly import ProxyGenerator
 #
